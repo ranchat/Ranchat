@@ -1,0 +1,7 @@
+Simple websocket chat based entirely on rack.
+
+How to use?
+
+$ thin -R ranchat.ru -t 1 start
+
+Point your browser to http://localhost:3000

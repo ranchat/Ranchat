@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#frame {
+  width: 100%;
+  height: 100%;
+}
+
+#chatlog {
+  width: 50%;
+  background-color: #efefef;
+}
+
+#nicklist {
+  width: 10%;
+  background-color: #eeeeee;
+}
+
+#chatlog, #nicklist {
+  height: 50%;
+  float: left;
+}
+
+form {
+  clear: both;
+}
+
+.system {
+  color: #ff0000;
+}
