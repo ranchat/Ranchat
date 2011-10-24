@@ -5,3 +5,10 @@ How to use?
 $ thin -R ranchat.ru -t 1 start
 
 Point your browser to http://localhost:3000
+
+Notes
+
+Make sure to install the prerelease of eventmachine
+(>= 1.0.0.beta.4) or otherwise rack-websocket won't work.
+
+$ gem install --pre eventmachine
